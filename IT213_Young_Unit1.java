@@ -38,9 +38,7 @@ public class IT213_Young_Unit1
 		System.out.println("City: " + city);
 		System.out.println("State: " + state);
 		System.out.println("Zip Code: " + zip);
-		
 		System.out.println("The number of units taken is: " + intunitsTaken);
-		
 		//format tuition values and monthly payments as currency and display
        	System.out.println("The tuition before discount is " + "$" + tuition);
 		System.out.println("The tuition after discount is " + "$" + afterDiscount);
