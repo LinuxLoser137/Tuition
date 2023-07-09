@@ -1,4 +1,3 @@
-import java.text.CompactNumberFormat;
 import java.util.Locale;
 
 public class IT213_Young_Unit1 
@@ -43,14 +42,10 @@ public class IT213_Young_Unit1
 		System.out.println("The number of units taken is: " + intunitsTaken);
 		
 		//format tuition values and monthly payments as currency and display
-		System.out.println("The tuition before discount is " + 
-CompactNumberFormat.getCurrencyInstance(new Locale("en","US")).format(tuition));
-		System.out.println("The tuition after discount is " +
-CompactNumberFormat.getCurrencyInstance(new Locale("en", "US")).format(afterDiscount));
-		System.out.println("Your monthly payment is: " +
-CompactNumberFormat.getCurrencyInstance(new Locale("en", "US")).format(monthlyPayment));
+       	System.out.println("The tuition before discount is " + "$" + tuition);
+		System.out.println("The tuition after discount is " + "$" + afterDiscount);
+		System.out.println("Your monthly payment is: " + "$" + monthlyPayment);
 	}
-		
 }
 
 	
